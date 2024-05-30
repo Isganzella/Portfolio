@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+ }
+ @font-face {
+    font-family: Outfit;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+ }
+
+ :root{
+    --color-text-headings: #252525;
+    --color-text-links: #4B4B4B;
+    --color-text-paragraphs: #333333;
+    --font-size-heading-1: 2.25rem;
+    --font-size-heading-2: 2rem;
+    --font-size-heading-3: 1.5rem;
+    --font-size-paragraphs: 1rem;
+    --font-size-links: 1rem;
+ }
+
+ .heading-1{
+    font-family: Outfit;
+    font-size: var(--font-size-heading-1);
+    font-weight: bold;
+ }
+ .heading-2{
+    font-family: Outfit;
+    font-size: var(--font-size-heading-2);
+    font-weight: bold;
+ }
+ .heading-3{
+    font-family: Outfit;
+    font-size: var(--font-size-heading-3);
+    font-weight: bold;
+ }
+ .paragraph{
+    font-family: Roboto;
+    font-size: var(--font-size-paragraphs);
+    font-weight: 500;
+ }
